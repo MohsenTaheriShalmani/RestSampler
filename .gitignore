@@ -1,0 +1,20 @@
+# RStudio project files
+.Rproj.user/
+*.Rproj
+.Rhistory
+.RData
+.Ruserdata
+
+# Build outputs
+.DS_Store
+.Rcheck/
+inst/doc
+
+# Java build files (optional if you include the JAR manually)
+target/
+*.class
+*.jar
+
+# Temporary files
+*.log
+*.tmp
