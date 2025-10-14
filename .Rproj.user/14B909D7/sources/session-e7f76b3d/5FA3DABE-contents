@@ -1,0 +1,23 @@
+Package: RestSampler
+Type: Package
+Title: Lightweight REST API Black-Box Sampler and Encoder via EvoMaster Integration
+Version: 0.1.0
+Authors@R: 
+    c(person(given = "Mohsen",
+             family = "Taheri Shalmani",
+             role = c("aut", "cre"),
+             email = "MohsenTaheriShalmani@gmail.com",
+             comment = c(ORCID = "0000-0003-4044-8507"))
+Maintainer: Mohsen Taheri Shalmani <MohsenTaheriShalmani@gmail.com>
+Description: Provides a lightweight interface for black-box REST API testing and analysis 
+    through integration with a Kotlin-based sampling engine derived from the open-source 
+    EvoMaster framework (Apache 2.0 License). The package generates, encodes, and executes 
+    random HTTP requests against a target OpenAPI specification, returning structured 
+    response data for use in downstream statistical and machine learning analysis within R.
+License: MIT + file LICENSE
+SystemRequirements: Java (>= 11)
+Depends: R (>= 4.0.0)
+Encoding: UTF-8
+LazyData: true
+URL: https://github.com/MohsenTaheriShalmani/RestSampler
+Imports: rJava

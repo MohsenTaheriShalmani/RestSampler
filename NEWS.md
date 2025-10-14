@@ -1,0 +1,5 @@
+# RestSampler 0.1.0
+
+## First Release
+- Initial release of **RestSampler**.  
+- Date of publication: October 2025
